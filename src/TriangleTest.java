@@ -1,9 +1,4 @@
-import java.lang.Math;
-
-//Math.sqrt(x);
-
 public class TriangleTest {
-
 
     /**
      * isRightTriangle zwraca true, jeżeli triangle jest prostokątny
@@ -11,7 +6,6 @@ public class TriangleTest {
      * @param triangle
      * @return
      */
-
     public boolean isRightTriangle(Triangle triangle) {
 
         if (triangle.getA() * triangle.getA() == triangle.getB() * triangle.getB() + triangle.getC() * triangle.getC() ||
@@ -23,8 +17,6 @@ public class TriangleTest {
         }
 
         return triangle.getIsRightTriangle();
-
-
     }
 
 
