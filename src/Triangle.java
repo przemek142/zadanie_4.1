@@ -24,19 +24,16 @@ public class Triangle {
 
     public void setA(double a) {
         this.a = a;
-        isRightTriangle = false;
         test.isRightTriangle(this);
     }
 
     public void setB(double b) {
         this.b = b;
-        isRightTriangle = false;
         test.isRightTriangle(this);
     }
 
     public void setC(double c) {
         this.c = c;
-        isRightTriangle = false;
         test.isRightTriangle(this);
     }
 
